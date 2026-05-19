@@ -1,0 +1,12 @@
+img {
+    width: 12rem;
+    padding: 20px;
+  }
+
+h2 {
+  color: white;  
+}
+
+.changeBg {
+  background-color: aquamarine;
+}

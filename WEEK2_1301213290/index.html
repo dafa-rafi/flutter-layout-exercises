@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tugas 3</title>
+		<script
+			src="https://code.jquery.com/jquery-3.7.1.js"
+			integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+			crossorigin="anonymous"
+		></script>
+		<script src="./script.js"></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+    <script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header class="d-flex flex-row gap-2">
+      <h1 style="color: blue">ONLINE</h1>
+      <h1 style="color: orange">MEDIA</h1>
+  </header>
+  <nav
+    class="d-flex flex-row justify-content-around bg-primary"
+  >
+    <button class="btn btn-primary">HOME</button>
+    <button class="btn btn-primary">STRATEGY</button>
+    <button class="btn btn-primary">SOLUSI</button>
+    <button class="btn btn-primary">MARKETING</button>
+    <button class="btn btn-primary">WORKSHOP</button>
+    <button class="btn btn-primary">OUR WORK</button>
+    <button class="btn btn-primary">PRODUK</button>
+    <button class="btn btn-primary">PARTNER</button>
+    <button class="btn btn-primary">INSPIRASI</button>
+    <button class="btn btn-primary">FAQ</button>
+  </nav>
+		<nav
+			class="d-flex flex-row justify-content-around bg-primary"
+		>
+			<button id="changeAlignment" class="btn btn-primary">
+				CHANGE ALIGNMENT
+			</button>
+			<button id="changeBg" class="btn btn-primary">
+				CHANGE BACKGROUND
+			</button>
+		</nav>
+		<section class="container d-flex flex-column align-items-center">
+      <div class="row gap-4">
+        <div class="col" id="changeColorBox" style="background-color: #4db421">
+          <div class="d-flex justify-content-center">
+            <img src="img/analytic.png" class="align-self-center" />
+          </div>
+          <h2>Analytic</h2>
+        </div>
+        <div class="col" style="background-color: #f37a2f">
+          <div class="d-flex justify-content-center">
+            <img src="img/creative.png" class="align-self-center" />
+          </div>
+          <h2>Creative</h2>
+        </div>
+      </div>
+      <div class="row gap-4">
+        <div class="col mt-4 mb-4" style="background-color: #e72e00">
+          <div class="d-flex justify-content-center">
+            <img src="img/development.png" class="align-self-center" />
+          </div>
+          <h2>Development</h2>
+        </div>
+        <div class="col mt-4 mb-4" style="background-color: #54a9ea">
+          <div class="d-flex justify-content-center">
+            <img src="img/marketing.png" class="align-self-center" />
+          </div>
+          <h2>Marketing</h2>
+        </div>
+      </div>
+      <div class="row gap-4">
+        <div class="col" style="background-color: #f1a138">
+          <div class="d-flex justify-content-center">
+            <img src="img/media.png" class="align-self-center" />
+          </div>
+          <h2>Media</h2>
+        </div>
+        <div class="col" style="background-color: #48d140">
+          <div class="d-flex justify-content-center">
+            <img src="img/optimization.png" class="align-self-center" />
+          </div>
+          <h2>Optimization</h2>
+        </div>
+      </div>
+    </section>
+	</body>
+</html>
